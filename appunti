@@ -1,0 +1,14 @@
+mkdir Repository
+cd Repository
+
+... create public Repository on Github.com ...
+
+git init
+git remote add Repo https://github.com/MoraGames/Repository.git
+
+... write code in index.php and data.json ...
+php index.php
+
+git add .
+git commit -m "First commit."
+git push Repo master
